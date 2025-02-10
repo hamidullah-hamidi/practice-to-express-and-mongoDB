@@ -17,11 +17,13 @@ router.get('/', async (req, res) => {
 });
 
 // Get one
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res) => {});
+
+// Create one
+router.post('/', async (req, res) => {
   const subscriber = new Subscribers({
     name: req.body.name,
     subscribeChannel: req.body.subscribeChannel,
-    subscriberDate: req.body.subscriberDate,
   });
 
   try {
@@ -35,9 +37,6 @@ router.get('/:id', async (req, res) => {
     });
   }
 });
-
-// Create one
-router.post('/', (req, res) => {});
 
 // Update one
 router.patch('/:id', (req, res) => {});
