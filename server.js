@@ -14,3 +14,5 @@ db.on('error', (err) => console.error(err));
 db.once('open', () => console.log('Connected to database'));
 
 app.listen(3000, () => console.log('Server Started'));
+
+console.log('hi hamid');
