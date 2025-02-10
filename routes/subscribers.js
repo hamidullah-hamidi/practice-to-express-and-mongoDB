@@ -2,7 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 // Get all
-router.get('/', (req, res) => {});
+router.get('/', (req, res) => {
+  res.send('hi from server');
+});
 
 // Get one
 router.get('/:id', (req, res) => {});
