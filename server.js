@@ -1,13 +1,12 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect(
-  'mongodb+srv://hamidullah:<079857ha>@cluster0.tvzu6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-  {
-    useNewUrlParser: true,
-  }
-);
+mongoose.connect(process.env.DATABASE_URL, {
+  useNewUrlParser: true,
+});
 
 const db = mongoose.connection;
 
