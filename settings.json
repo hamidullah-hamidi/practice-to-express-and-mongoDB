@@ -1,0 +1,87 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.renderControlCharacters": true,
+  "editor.fontSize": 16,
+  // "editor.fontFamily": "'Cascadia Code',monospace, Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontFamily": "\"Cascadia Code\"",
+  "tabnine.expermentalAutoImports": true,
+  "git.ignoreWindowsGit27Warning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggest.showStatusBar": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "cSpell.userWords": ["hamid", "hamidi", "hamidian", "hamidullah", "yasser"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "prettier.singleQuote": true,
+  "editor.wordWrap": "on",
+  "editor.padding.bottom": 50,
+  "editor.padding.top": 10,
+  "editor.formatOnType": true,
+  "files.autoSaveDelay": 0,
+  "html.format.wrapLineLength": 140,
+  "prettier.printWidth": 90,
+  "editor.accessibilitySupport": "off",
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.run": "onSave",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "tailwindCSS.emmetCompletions": true,
+  "scm.diffDecorations": "none",
+  "prettier.enableDebugLogs": true,
+  "prettier.withNodeModules": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "C_Cpp.default.compilerPath": "c:\\Users\\hamidullah\\Desktop\\C projects\\c.c",
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.minimumContrastRatio": 6.5,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.env.windows": {},
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.startupEditor": "none",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "errorLens.messageBackgroundMode": "message",
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+
+  "git.autofetch": true,
+
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "prettier.jsxSingleQuote": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "\"Fira Code\", \"Cascadia code\", monospace",
+  "editor.fontLigatures": true
+  // "editor.fontWeight": "bold"
+}
