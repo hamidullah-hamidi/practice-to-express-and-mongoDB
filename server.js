@@ -13,6 +13,10 @@ const db = mongoose.connection;
 db.on('error', (err) => console.error(err));
 db.once('open', () => console.log('Connected to database'));
 
-app.listen(3000, () => console.log('Server Started'));
+app.use(express.json());
 
-console.log('hi hamid');
+const subscriberRouter = require('./routes/subscribers');
+
+app.get('/subscribers', subscriberRouter);
+
+app.listen(3000, () => console.log('Server Started'));
