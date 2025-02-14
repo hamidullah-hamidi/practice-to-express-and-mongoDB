@@ -21,15 +21,11 @@ router.get('/:id', async (req, res) => {});
 
 // Create one
 router.post('/', async (req, res) => {
-  const subscriber = new Subscribers({
-    name: req.body.name,
-    subscriberChannel: req.body.subscriberChannel,
-  });
+  const newSubscriber = Subscribers.create(req.body);
 
   try {
-    const newSubscriber = await subscriber.save();
     res.status(201).json({
-      newSubscriber,
+      data: { newSubscriber },
     });
   } catch (err) {
     res.status(500).json({
