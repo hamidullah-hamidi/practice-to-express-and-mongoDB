@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {});
 router.post('/', async (req, res) => {
   const subscriber = new Subscribers({
     name: req.body.name,
-    subscribeChannel: req.body.subscribeChannel,
+    subscriberChannel: req.body.subscriberChannel,
   });
 
   try {
