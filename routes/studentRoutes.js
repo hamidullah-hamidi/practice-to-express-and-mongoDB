@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const Subscribers = require('../model/subscriber');
+// const  = require('../model/studentModel');
+const studentController = require('../controllers/studentController');
+
+router.route('/').get(studentController.getAllStudents);
 
 // Get all
 router.get('/', async (req, res) => {
